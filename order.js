@@ -11,12 +11,24 @@ function user(firstname,lastname,adress,nameofthebooktoorder,phone)
 }
 var bookOrders=[]
 function facture(){
-    var object = user($("#name").val(), $("#last").val(),$("#adresse").val(),$("#book").val(),$("#phone").val())
+    var object = user($("#name").val(), $("#last").val(),$("#adress").val(),$("#book").val(),$("#phone").val())
     bookOrders.push(object)
     console.log(bookOrders)
-    $('.facture').append("<h1>" + object.firstname + "</h1>")
-    $('.facture').append("<h1>" +   + "</h1>")
-    $('.facture').append("<h1>" +  object.adress + "</h1>")
-    $('.facture').append("<h1>" +  object.nameofthebooktoorder + "</h1>")
-    $('.facture').append("<h1>" + object.phone + "</h1>")
+    $('.a').append("<p>" + object.firstname + "</p>")
+    $('.z').append("<p>" + object.lastname  + "</p>")
+    $('.e').append("<p>" +  object.adress + "</p>")
+    $('.r').append("<p>" +  object.nameofthebooktoorder + "</p>")
+    $('.t').append("<p>" + object.phone + "</p>")
 }
+$(document).ready(function(){
+    $('.f').on('click',function(){
+        $('.l').hide()
+        $('.a').show()
+        $('.z').show()
+        $('.e').show()
+        $('.r').show()
+        $('.t').show()
+
+    })
+})
+

@@ -3,3 +3,21 @@
         background-image: url("https://thumbs.dreamstime.com/b/special-order-notes-paper-clothes-pegs-wooden-background-193875535.jpg");
      background-size: cover;
       }
+      .f{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px
+      }
+      .lol{
+        background-color: rgb(255, 255, 255);
+        opacity:80%;
+        size-adjust:inherit;
+         margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 20px;
+      }
