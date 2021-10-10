@@ -21,3 +21,12 @@
         margin-right: 20%;
         border-radius: 20px;
       }
+      .m{
+        background-color: rgb(255, 255, 255);
+        opacity:80%;
+        size-adjust:inherit;
+         margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 20px;
+        margin-top:10%;
+      }

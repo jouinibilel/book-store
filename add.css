@@ -1,16 +1,17 @@
 
 body {
-    background-image: url("https://media.istockphoto.com/photos/sale-from-bookshelf-with-book-in-form-of-letters-isolated-on-white-picture-id1021155974?k=20&m=1021155974&s=612x612&w=0&h=IykYfs0Alh28DEEvDWDOUi308yaOgTHkV-_zeanuyLQ=");
+    background-image: url("https://c.neh.tw/thumb/f/720/6458442180984832.jpg");
  background-size: cover;
   }
 
 .d{
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding:initial;
-    width: initial;
-    height: initial;
-  text-align: center;
+  background-color: rgb(255, 255, 255);
+  opacity:50%;
+  size-adjust:inherit;
+   margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  margin-top: 5%;
 }
 .tab{
     border: none;
@@ -24,7 +25,7 @@ body {
 }
     
 .b{
-    background-color: #87db89; /* Green */
+    background-color: #82bb83; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -32,4 +33,19 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 30%;
+  margin-right: 30%;
+  max-width: 1000px;
+}
+.l{
+  background-color: rgb(255, 255, 255);
+  opacity:80%;
+  size-adjust:inherit;
+   margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+
+}
+.h{
+  color: #000000;
 }

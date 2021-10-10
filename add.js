@@ -17,6 +17,8 @@ function addbook()
     $('.adding').append("<img src="+"'"+o.img+"'"+"/>")
     $('.adding').append("<h2>"+ o.price +"</h2>")
 }
+ 
+
 
 
 

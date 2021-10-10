@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://taraa.com.sa/wp-content/uploads/2019/07/aboutus-s.jpg");
+    background-image: url("https://c.neh.tw/thumb/f/720/6458442180984832.jpg");
  background-size: cover;
   }
   .f{
@@ -16,6 +16,7 @@ body {
   }
   .us{
     background-color: rgb(255, 255, 255);
+    size: 100px;
     opacity:50%;
     size-adjust:inherit;
      margin-left: 20%;
